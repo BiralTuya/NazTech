@@ -1,0 +1,17 @@
+package com.Test2.Test2;
+
+abstract class person{
+	abstract int age(int a, int b);
+}
+public class App extends person{
+
+	@Override
+	public int age(int a, int b) {
+		// TODO Auto-generated method stub
+		return(a+b);
+	}
+	
+}
+ 
+   
+

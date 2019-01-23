@@ -1,0 +1,7 @@
+package com.Test2.Test2;
+
+import junit.framework.TestCase;
+
+public class TestCls extends TestCase {
+
+}
