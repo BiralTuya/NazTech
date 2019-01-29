@@ -19,6 +19,10 @@
 			<item value="0.0.1-SNAPSHOT"/>
 		</list>
 	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
 	<section name="MavenProjectWizardArchetypePage">
 		<item value="All Catalogs" key="catalog"/>
 		<list key="projectNameTemplate">
@@ -46,17 +50,20 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.Test3.Test3"/>
 			<item value="com.Test2.Test2"/>
 			<item value="com.Test.Test"/>
 			<item value="java.abs"/>
 			<item value="java.task1"/>
 		</list>
 		<list key="groupId">
+			<item value="com.Test3"/>
 			<item value="com.Test2"/>
 			<item value="com.Test"/>
 			<item value="java"/>
 		</list>
 		<list key="artifactId">
+			<item value="Test3"/>
 			<item value="Test2"/>
 			<item value="Test"/>
 			<item value="abs"/>
