@@ -8,42 +8,23 @@ import java.util.List;
 import com.Employee.dbUtil.DBConnection;
 
 public class DBOperations {
-	public Boolean addEmployee(Employee employee) {
-		Connection con = null;
-
-		Statement st = null;
-
-		String insert = "insert into TEmpD values('" + employee.getName() + "', '" + employee.getEmployeeId()
-				+ "', '" + employee.getSalary() + "', '" + employee.getCountry() + "', '" + employee.getCity() + "', '"
-				+ employee.getZipCode() + "')";
-		try
-		{
-
-			DBConnection dc = new DBConnection();
-
-			con = dc.createConnection();
-
-			st = con.createStatement();
-
-			st.execute(insert);
-
-			//System.out.println("Inserted");
-			return true;
-
-		}
-
-		catch (Exception e)
-
-		{
-
-			System.out.println(e);
-
-		}
-		return null;
-
-	}
 	public static void main(String[] args) {
 	DBConnection dbcn=new DBConnection();
 	Connection conn=dbcn.createConnection();
+	Employee emp = new Employee();
+	
+	emp.SetName("Tuya");
+	emp.SetId(001);
+	emp.SetEmail("abc@abc");
+	emp.SetPhone(123);
+	emp.SetAddress("Rajshahi");
+	emp.SetAge(24);
+	
+	/*System.out.println(emp.GetName());
+	System.out.println(emp.GetId());
+	System.out.println(emp.GetEmail());
+	System.out.println(emp.GetPhone());
+	System.out.println(emp.GetAddress());
+	System.out.println(emp.GetAge());*/
 	}
 }

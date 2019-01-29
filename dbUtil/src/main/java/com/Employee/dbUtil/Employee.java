@@ -8,40 +8,40 @@ public class Employee {
 	private String address;
 	private int age;
 	
-	public int GetId(int id) {
+	public int GetId() {
 		return id;
 	}
-	public void SetId() {
+	public void SetId(int id) {
 		this.id=id;
 	}
-	public String GetName(String name) {
+	public String GetName() {
 		return name;
 	}
-	public void SetName() {
+	public void SetName(String name) {
 		this.name=name;
 	}
-	public int GetPhone(int phone) {
+	public int GetPhone() {
 		return phone;
 	}
-	public void SetPhone() {
+	public void SetPhone(int phone) {
 		this.phone=phone;
 	}
-	public String GetEmail(String email) {
+	public String GetEmail() {
 		return email;
 	}
-	public void SetEmail() {
+	public void SetEmail(String email) {
 		this.email=email;
 	}
-	public String GetAddress(String address) {
+	public String GetAddress() {
 		return address;
 	}
-	public void SetAddress() {
+	public void SetAddress(String address) {
 		this.address=address;
 	}
-	public int GetAge(int age) {
+	public int GetAge() {
 		return age;
 	}
-	public void SetAge() {
+	public void SetAge(int age) {
 		this.age=age;
 	}
 }
