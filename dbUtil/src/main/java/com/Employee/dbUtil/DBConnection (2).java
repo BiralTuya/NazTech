@@ -16,10 +16,10 @@ public class DBConnection {
 			conn = DriverManager.getConnection("jdbc:sqlserver://vNTDACWSSQLD002:1433;"
 					+ "databaseName=DEV_TEST;user=dev_test_dbo;password=dev_test_dbo123");
 			if(conn!=null) {
-				System.out.print("connected\n");
+				System.out.print("connected");
 			}
 			else {
-				System.out.print("not connected\n");
+				System.out.print("not connected");
 			}
 		}
 		catch (Exception e)
